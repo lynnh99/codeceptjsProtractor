@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "webdriver":"./node_modules/.bin/webdriver-manager update && ./node_modules/.bin/webdriver-manager start",
+    "test": "./node_modules/.bin/codeceptjs run"
+  },
+  "dependencies": {
+    "codeceptjs": "^3.0.7",
+    "protractor": "^5.3.0",
+    "webdriver-manager": "^12.1.8"
+  }
+}

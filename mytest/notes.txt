@@ -1,0 +1,20 @@
+
+
+Issue:
+Unable to find the download urls for the Selenium, Chrome driver and etc.
+That is, what is see in your screenshot shared by you.
+* "getDownloadStream"
+
+What i did:
+Removed the wdio dependency and used webdriver-manager dependency.
+
+What you need to do now:
+* After doing npm install in the project directory.
+* In a new command promt, Run "npm run webdriver" script tag of package.json file.
+* In a seperate command promt, Run "npm run test".
+
+What I feel:
+* its good to use a different helper of codeceptjs. Reason - The protractor is deprecated.
+May be in the futher, They will remove the libraries itself.
+
+* try using a different helper like playwright etc.
